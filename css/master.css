@@ -8,7 +8,6 @@ header{
     background-color: #4EA0FF;
     background-image: url('../img/pattern.png');
     background-size: 250px 150px;
-    background-attachment: fixed;
 }
 
 header img {
@@ -41,6 +40,10 @@ h1{
     margin-top: 15px;
 }
 
+.highlighted{
+    background-color: #FFFF00;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -54,4 +57,27 @@ tr th {
 
 tbody tr:first-child, tbody tr:last-child {
     background-color: #B1E5F2;
+}
+
+footer {
+ font-weight: 800;
+}
+
+.footerImagesText{
+    color: white;
+    padding: 5px;
+}
+
+.imageContainer{
+    height: 100px;
+    width: 150px;
+    background-size: contain;
+}
+
+.footerImage1{
+    background-image: url('../img/monitor.jpg');
+}
+
+.footerImage2{
+    background-image: url('../img/graph.jpg');
 }
