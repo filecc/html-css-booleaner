@@ -16,8 +16,15 @@ header img {
     padding: 10px 10px;
 }
 
+.articleImages{
+    text-align: center;
+}
+
+
 main {
     padding: 10px;
+    max-width: 70vw;
+    margin: 0 auto;
 }
 
 h1{
@@ -31,6 +38,7 @@ h1{
 .author {
     color: #2bc5fd;
 }
+
 
 .marginTop{
     margin-top: 15px;
