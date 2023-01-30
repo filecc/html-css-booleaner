@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: content-box;
+    font-size: 12px;
 }
 
 header{
@@ -14,6 +14,44 @@ header{
 header img {
     width: 150px;
     height: 60px;
-    padding-top: 20px;
+    padding: 10px 10px;
 }
 
+main {
+    padding: 10px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.greyText{
+    color: grey;
+}
+
+.author {
+    color: #2bc5fd;
+}
+
+.imagesContainer{
+    margin-top: 15px;
+}
+
+.marginTop{
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr th {
+   min-width: 200px;
+   text-align: left;
+   background-color: #20A9E5;
+   color: white;
+}
+
+tbody tr:first-child, tbody tr:last-child {
+    background-color: #B1E5F2;
+}
